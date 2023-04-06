@@ -20,7 +20,7 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand" href="#page-top"><img src="assets/img/z.png" alt="..." /></a>
+                
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars ms-1"></i>
@@ -58,9 +58,7 @@
                             <i class="fas fa-solid fa-house-user fa-stack-1x fa-inverse"></i>
                         </span>
                         <h4 class="my-3">Consultoria em design de interiores</h4>
-                        <p class="text-muted">Nossos projetos de interiores são feitos buscando criar ambientes funcionais que atendam a necessidade única de cada cliente. 
-
-                            Acreditamos que a construção deve ser conjunta entre estúdio e clientes para desenvolver a melhor solução pensando em custo, funcionalidade, sustentabilidade, sofisticação e beleza de cada projeto</p>
+                        <p class="text-muted">Acreditamos que o design de interiores não é apenas sobre a estética, mas também sobre o funcionamento do espaço e o bem-estar do cliente. Aqui no estudio temos a convicção que a construção deve ser conjunta entre estúdio e clientes para desenvolver a melhor solução pensando em custo, funcionalidade, sustentabilidade, sofisticação e beleza de cada projeto</p>
                     </div>
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
@@ -68,11 +66,7 @@
                             <i class="fas fa-solid fa-house fa-stack-1x fa-inverse"></i>
                         </span>
                         <h4 class="my-3">Projeto arquitetônico</h4>
-                        <p class="text-muted">Nossos objetos buscam auxiliar a composição dos ambientes. 
-
-                            Além de funcionais são produzidos de forma manual para criar peças únicas.
-                            
-                            Cada objeto é pensado de forma a incorporar beleza e um bom design para atender a necessidade de cada cliente</p>
+                        <p class="text-muted">O projeto arquitetônico é a base para a construção de um edifício bem-sucedido e eficiente. É aqui que se define a forma e a função do edifício, desde o seu layout interno até a sua aparência externa. É um processo que requer uma abordagem holística e uma compreensão profunda de design, engenharia e construção. Estamos comprometidos em criar um projeto arquitetônico que seja ao mesmo tempo esteticamente atraente e funcional, e que atenda aos mais altos padrões de qualidade. </p>
                     </div>
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
@@ -80,7 +74,7 @@
                             <i class="fas fa-solid fa-helmet-safety fa-stack-1x fa-inverse"></i>
                         </span>
                         <h4 class="my-3">Acompanhamento de Obra</h4>
-                        <p class="text-muted">Nosso mobiliário exclusivo e composto por peças feitas a mão, buscando sustentabilidade e respeito aos materiais. Nossas peças são pensadas e criadas por designers, ou feitas sob medida de acordo com a necessidade e demanda dos nossos clientes. </p>
+                        <p class="text-muted">Nosso serviço de acompanhamento de obra é projetado para garantir que seu projeto seja executado com excelência, desde o início até a conclusão da construção.Acreditamos que a transparência e a comunicação constante com nossos clientes são fundamentais para o sucesso do projeto. É por isso que fornecemos atualizações frequentes sobre o progresso da obra e estamos sempre disponíveis para responder a quaisquer dúvidas ou preocupações que possam surgir durante o processo de construção. </p>
                     </div>
                 </div>
             </div>
@@ -100,11 +94,11 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/portfolio/1.jpg" alt="..." />
+                                <img class="img-fluid" src="\Portfolio Site\SalaJantar.effectsResult.png" alt="..." />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Threads</div>
-                                <div class="portfolio-caption-subheading text-muted">Illustration</div>
+                                <div class="portfolio-caption-heading">Apartamento 55</div>
+                                <div class="portfolio-caption-subheading text-muted">Interiores</div>
                             </div>
                         </div>
                     </div>
@@ -295,54 +289,40 @@
                 <!-- To make this form functional, sign up at-->
                 <!-- https://startbootstrap.com/solution/contact-forms-->
                 <!-- to get an API token!-->
-                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                <form id="contactForm" action="https://formspree.io/f/mbjeprgo" method="POST">
                     <div class="row align-items-stretch mb-5">
                         <div class="col-md-6">
                             <div class="form-group">
                                 <!-- Name input-->
-                                <input class="form-control" id="name" type="text" placeholder="Your Name *" data-sb-validations="required" />
+                                <input class="form-control" id="name" type="text" name="name" placeholder="Your Name *" data-sb-validations="required" />
                                 <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
                             </div>
                             <div class="form-group">
                                 <!-- Email address input-->
-                                <input class="form-control" id="email" type="email" placeholder="Your Email *" data-sb-validations="required,email" />
+                                <input class="form-control" id="email" type="email" name="email" placeholder="Your Email *" data-sb-validations="required,email" />
                                 <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
                                 <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
                             </div>
                             <div class="form-group mb-md-0">
                                 <!-- Phone number input-->
-                                <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" data-sb-validations="required" />
+                                <input class="form-control" id="phone" type="tel" name="phone" placeholder="Your Phone *" data-sb-validations="required" />
                                 <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group form-group-textarea mb-md-0">
                                 <!-- Message input-->
-                                <textarea class="form-control" id="message" placeholder="Your Message *" data-sb-validations="required"></textarea>
+                                <textarea class="form-control" id="message" name="message"  placeholder="Your Message *" data-sb-validations="required"></textarea>
                                 <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
                             </div>
                         </div>
                     </div>
-                    <!-- Submit success message-->
-                    <!---->
-                    <!-- This is what your users will see when the form-->
-                    <!-- has successfully submitted-->
-                    <div class="d-none" id="submitSuccessMessage">
-                        <div class="text-center text-white mb-3">
-                            <div class="fw-bolder">Form submission successful!</div>
-                            To activate this form, sign up at
-                            <br />
-                            <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                        </div>
-                    </div>
-                    <!-- Submit error message-->
-                    <!---->
-                    <!-- This is what your users will see when there is-->
-                    <!-- an error submitting the form-->
-                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+
                     <!-- Submit Button-->
-                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Send Message</button></div>
+                    
+                    <div class="text-center"><input type="submit" value="Enviar" class="btn btn-primary btn-xl text-uppercase" id="submitButton" type="submit"></div>
                 </form>
+                
             </div>
         </section>
         <!-- Footer-->
@@ -373,23 +353,23 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <h2 class="text-uppercase">Casa 55</h2>
+                                    <p class="item-intro text-muted">Feito com muito amor e dedicação pelos moradores para os moradores.</p>
+                                    <img class="img-fluid d-block mx-auto" src="\Portfolio Site\SalaJantar.effectsResult.png" alt="..." />
+                                    <p>Apartamento 55 foi imaginado para ser um lar de aconchego para uma família recém formada. Com um estilo boho brasileiro, que é carregado de cor, e personalidade</p>
                                     <ul class="list-inline">
                                         <li>
-                                            <strong>Client:</strong>
-                                            Threads
+                                            <strong>Cliente:</strong>
+                                            Apartamento 55
                                         </li>
                                         <li>
-                                            <strong>Category:</strong>
-                                            Illustration
+                                            <strong>Categoria:</strong>
+                                            Interiores
                                         </li>
                                     </ul>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
-                                        Close Project
+                                        Fechar
                                     </button>
                                 </div>
                             </div>
