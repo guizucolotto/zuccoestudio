@@ -11319,3 +11319,8 @@ section#contact form#contactForm :-ms-input-placeholder {
 .boneco-solido{
   color: #fff
 }
+
+.center-icon{
+  display: flex;
+  justify-content: center;
+}
