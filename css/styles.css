@@ -11324,3 +11324,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   display: flex;
   justify-content: center;
 }
+
+.background-whats{
+  background-color: var(--bs-orante);
+}
